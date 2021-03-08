@@ -30,9 +30,6 @@
     "semver": "^5.7.0",
     "should": "^13.2.3"
   },
-  "bundledDependencies": [
-    "node-pre-gyp"
-  ],
   "binary": {
     "module_name": "gcstats",
     "module_path": "./build/{module_name}/v{version}/{configuration}/{node_abi}-{platform}-{arch}-{libc}",
